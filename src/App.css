@@ -108,6 +108,17 @@ a:hover {
   justify-content: center;
   align-items: center;
 }
+.published-info {
+  color: #888;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.published-info::before {
+  content: "Published by ";
+  font-weight: bold;
+}
+
 @media only screen and (max-width: 768px) {
   .app-container {
     padding: 10px;
